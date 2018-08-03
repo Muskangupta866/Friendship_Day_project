@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/friends_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/Image1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/skybg" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView_friendsE"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/Image1"
+        android:src="@drawable/bands" />
+
+    <TextView
+        android:id="@+id/textView_wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/Wish"
+        android:textColor="#0000cd"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView_friendsF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_wish"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:text="@string/MeaningF"
+        android:textColor="#000080"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView_friendsR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_friendsF"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:text="@string/MeaningR"
+        android:textColor="#000080"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView_friendsI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_friendsR"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:text="@string/MeaningI"
+        android:textColor="#000080"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView_friendsE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_friendsI"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:text="@string/MeaningE"
+        android:textColor="#000080"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/textView_friendsN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_friendsE"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:text="@string/MeaningN"
+        android:textColor="#000080"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView_friendsD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_friendsN"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:text="@string/MeaningD"
+        android:textColor="#000080"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/For"
+        android:textColor="#483d8b"
+        android:textSize="32sp" />
+
+
+</RelativeLayout>

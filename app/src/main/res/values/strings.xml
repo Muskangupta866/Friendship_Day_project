@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Friendship Day Card</string>
+    <string name="Wish">Happy Friendship Day</string>
+    <string name="MeaningF">F - Few</string>
+    <string name="MeaningR">R - Relations</string>
+    <string name="MeaningI">I - In</string>
+    <string name="MeaningE">E - Earth</string>
+    <string name="MeaningN">N - Never</string>
+    <string name="MeaningD">D - Dies</string>
+    <string name="Image1">Friends</string>
+<string name="For">To All The Google Scholars </string>
+</resources>
